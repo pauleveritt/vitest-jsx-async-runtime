@@ -1,0 +1,18 @@
+{
+  "name": "vitest-jsx-async-runtim",
+  "version": "1.0.0",
+  "description": "Demonstrate failure rendering from a Vitest test.",
+  "type": "module",
+  "scripts": {
+    "console": "tsx hello.tsx",
+    "test": "vitest run hello.test.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsx-async-runtime": "^0.4.0",
+    "tsx": "^4.16.2",
+    "vitest": "^2.0.2"
+  }
+}
